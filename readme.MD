@@ -1,4 +1,4 @@
-# CSS SINK project CIT14
+# CSS SINK project CIT14. Pitogo, Xebastiane Cameron G.
 
 ## Description
 styling a website using css flexbox and other things.
