@@ -4,7 +4,7 @@
 styling a website using css flexbox and other things.
 
 ## student
-    https://xebastianepitogo.github.io
+    https://github.com/XebastianePitogo
 
 ## website
     https://xebastianepitogo.github.io/Sinks/
