@@ -100,29 +100,32 @@ table {
 /*About*/
 
 #aboutText {
-    flex: 50%;
+    flex: 1 1 50%;
     font-size: calc(2.8rem + 1vw);
     word-wrap: break-word;
     overflow-wrap: break-word;
-    padding: 0rem 3rem 0rem 3rem
+    padding: 0rem 3rem 0rem 3rem;
 }
 
 .aboutImage {
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    flex: 50%;;
-    margin: 1rem 1rem 1rem 1rem;
+    flex: 1 1 50%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 0.5rem; 
+    padding: 2rem;
+    justify-items: center; 
+    align-items: center; 
 }
 
 .aboutImage img {
-    max-width: 50%;
-    max-height: 50%;
-    object-fit: cover;
+    width: 100%;
+    height: auto;
     box-sizing: border-box;
     aspect-ratio: auto;
     border-radius: 15% 15%;
     box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.3); 
+    margin: auto;
+
 }
 
 /*Types Of Sinks*/
@@ -140,7 +143,7 @@ table {
     justify-content: space-evenly;
     flex-wrap: wrap;
     flex: 50%;;
-    margin: 1rem 1rem 1rem 1rem;
+    gap: 0.5rem; 
 }
 
 .typeImage img {
@@ -306,15 +309,8 @@ footer {
         gap: 1rem;
     }
 
-    .aboutImage img {
-        display: flex;
-        justify-content: space-between;
-        max-width: 50vw;
-        max-height: 25vh;
-        object-fit: cover;
-        box-sizing: border-box;
-        border-radius: 15% 15%;
-        margin: 1rem 1rem 0rem 1rem;
+    .aboutImage {
+        grid-template-columns: 1fr 1fr 1fr;
     }
     
     #aboutText {
